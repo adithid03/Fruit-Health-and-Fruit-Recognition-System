@@ -1,6 +1,24 @@
 #  Fruit Health and Fruit Recognition System
 
-This is a **major academic project** developed as part of the final year B.E. Computer Science and Engineering curriculum. The project focuses on identifying fruit types and assessing their freshness or rottenness using **deep learning and transfer learning** techniques. A deep learning model based on **MobileNetV2 (with Transfer Learning)** was trained for accurate fruit classification and freshness detection.
+This project, developed as part of our final-year Bachelor of Engineering (Computer Science and Engineering) curriculum, focuses on intelligent fruit recognition and freshness assessment. Leveraging deep learning and transfer learning techniques, the system is capable of identifying various fruit types and estimating their freshness or degree of rottenness.
+
+At its core, the project uses a fine-tuned MobileNetV2 model trained on a curated dataset, enabling accurate classification with lightweight performance suitable for real-time web deployment.
+
+### What is MobileNetV2?
+
+MobileNetV2 is a lightweight and efficient deep learning architecture developed by Google. It is optimized for mobile and embedded vision applications. The model is known for:
+
+- **Depthwise Separable Convolutions**: Reduces computation by separating spatial and channel-wise processing.
+- **Inverted Residuals with Linear Bottlenecks**: Improves information flow through the network while keeping it compact.
+- **Low Latency and Memory Footprint**: Ideal for real-time systems like ours.
+
+### Why We Chose MobileNetV2?
+
+- **Pre-trained on ImageNet**: Helped us leverage transfer learning to train with less data.
+- **Fast Inference**: Ensures our web-based app performs quickly even on low-end devices.
+- **High Accuracy**: Achieved over 98% accuracy on our fruit freshness and type classification task.
+
+We fine-tuned MobileNetV2 using transfer learning to adapt it for our dataset containing various fresh and rotten fruits.
 
 ## 📌 Overview
 
@@ -25,7 +43,7 @@ The system takes an input image of a fruit and performs:
 - **Model File**: `Fresh_Rotten_Fruits_MobileNetV2_Transfer_Learning2(98).h5`
 
 
-## 📄 Research
+## Research
 
 - A paper was written based on this project, exploring image preprocessing techniques, CNN architectures, and performance metrics. *(Currently unpublished)* [Paper](https://drive.google.com/file/d/1Pmogqaw1nIvJfHKRgw9-mVN7y7WOZILd/view?usp=sharing)
 - A base research paper was referred to during the development for architectural insights and dataset pre-processing. [Base Paper](https://drive.google.com/file/d/1Rd6fsFlRy4RsbAZYMYYAJV-Tp3qcwvFe/view?usp=sharing)
