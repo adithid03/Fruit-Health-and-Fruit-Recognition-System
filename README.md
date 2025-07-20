@@ -68,13 +68,13 @@ The system takes an input image of a fruit and performs:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/fruit-health-recognition.git](https://github.com/adithid03/Fruit-Health-and-Fruit-Recognition-System.git)
+   git clone https://github.com/adithid03/Fruit-Health-and-Fruit-Recognition-System.git
    cd fruit-health-and-fruit-recognition-system
    ```
 2. Install dependencies
-  ```bash
-    pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 3. Run the app
    ```bash
   	python ao1.py
