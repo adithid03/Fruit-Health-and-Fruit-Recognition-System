@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Flask cache and temp files
+instance/
+*.db
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Logs
+*.log
